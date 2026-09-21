@@ -16,5 +16,20 @@ print(transpose(matrix))
 566:Reshape the Matrix
 '''
 from typing import List
-
+def matrixReshape(mat: List[List[int]], r: int, c: int) -> List[List[int]]:
+    m, n = len(mat), len(mat[0])
+        
+    if m * n != r * c:
+        return mat
+        
+    ans = [[0] * c for _ in range(r)]
+        
+    for i in range(m * n):
+        ans[i // c][i % c] = mat[i // n][i % n]
+            
+    return ans
+mat = [[1,2],[3,4]]
+r = 1
+c = 4
+print(matrixReshape(mat,r,c))
 
