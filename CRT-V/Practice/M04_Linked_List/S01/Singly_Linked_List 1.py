@@ -1,19 +1,36 @@
 '''
-DSA:The way of storing,organizing and managing of data for efficient usage
+DSA: The way of storing, organising, and managing of data for efficient usage
+'''
 
-Application : library --> section --> rows --> Books
+# application: library-->sections-->rows-->books
 
-Types:
-1.Primiive:int,float,str,bool
-2.Non Primitive:
-       a)Linear:Arrays,list,linked list,stacks,queue
-       b)Non-Linear:Trees,Graphs
+'''
+what are the types:
+1. primitive: int, float, char, float, bool
+2. non-primitive: 
+    a) linear: array, stack, queue, linked list
+    b) non-linear: tree, graph
 
-Linked List:  is a linear data structure where data is stored in separate blocks called nodes.
+Linked list: the elements can be stored in the form of nodes and each node have the co node: 2parts
+         1. Data --> the actual value present
+         2. Pointer --> the address of the next node
+         3. Reference: this will be points to next node
 
-Types:
-1)Singly
-2)Double
-3)Circular
+list vs linked linked list:
+1.list:
+  -insertion and deletion are difficult
+  -indexing
+  -easy to traverse
+2.linked list:
+    -insertion and deletion are easy
+    - no indexing
+    -traversing is difficult
 
-''' 
+'''
+
+'''
+Types of linked list:
+1.Singly linked list
+2.doubly linked list
+3.circular linked list
+'''
