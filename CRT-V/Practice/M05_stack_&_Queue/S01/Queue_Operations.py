@@ -1,3 +1,4 @@
+'''
 class queue:
     def __init__(self):
         self.q=[]
@@ -23,3 +24,4 @@ print(q.is_empty())
 print(q.peek())
 print(q.dequeue())
 print(q.size())
+'''
